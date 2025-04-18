@@ -1,36 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Learning Website</title>
+    <head >
+        <title>Portfolio</title>
+        <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: aqua;
+            width: 300px;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
     </head>
-    <body style="background-color: white">
-        <div style="background-color: lightgray; width: 400px; margin: 50px auto; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px gray;">
-        <h1 style="text-align: center; color: darkblue;">My Personal Info</h1>
-            <div style="text-align: left">
-            <img src="nomi.jpg" alt="My image" style="width: 100px; border-radius: 50px">
-                <div style="text-align: center; color: darkblue; font-size: 30px">Web developer</div>
-        </div>
-            <p>
-                <b>Muhammad Noman<br>S/O<br> Muhammad Yaqoob</b>
-            </p>
-            <p>
-                <img src= "contact.png" alt="Contact Icon" style="width: 20px; vertical-align: middle;">
-                <b style="font-size: 18px;"> Contact details</b><br>
-                <b>Phone 1:</b> 03254466097<br>
-                <b>Phone 2:</b> 03186186046
-            </p>
-            <p>
-                <img src="home.png" alt="Home Icon" style="width:20px; vertical-align: middle">
-                <b style="font-size: 18px;">Home Address</b><br>
-                Basti Lodhra P.O. Khairpur Sadat,<br>
-                Teshil Alipur <b>District</b> Muzzaffargarh
-            </p>
-            <p>
-                <img src="email.png" alt="Email Icon" style="width:20px; vertical-align: middle">
-                <b style="font-size: 18px;">Email</b><br>
-                Yaqoobn024@gmail.com
-            </p>
+    <body>
+        <div class="container">
+            <div style="display: grid; gap: 20px; padding-bottom: 10px;">
+                <div style="text-align: center; background-color: aqua; width: 300px; padding: 5px; height:auto; border-radius: 10%"><p style="text-align:center padding-right: 10px;">
+                 <br>
+                <img src="../Web_Images/nomi.jpg" alt="error" style="width: 100px; border-radius: 50%; display: block; margin: auto;">
+                </p>
+                <p style="text-align: left; margin-left: 10px;">
+                 <b>Name: <label>Muhammad Noman</label></b><br>
+                 <b>S/O: <label>Muhammad Yaqoob</label></b>
+                </p>
+                <p style="text-align: left; margin-left: 10px;">
+                    <img src="../Web_Images/home.png" alt="error" style="width: 15px; border-radius: 20%;">
+                    <b>Home Address</b><br>
+                    Bastic Lodhra, <b>P.O.</b>Khairpur Sadat<br>
+                    <b>Teshil</b> Alipur <b>District</b> Muzaffargarh
+                </p>
+                <p style="text-align: left; margin-left: 10px;">
+                    <img src="../Web_Images/email.png" alt="error" style="width: 15px; border-radius: 20%;">
+                    <b>Email Address</b><br>
+                    yaqoobn024@gmail.com
+                </p>
+                <p style="text-align: left; margin-left: 10px;">
+                    <img src="../Web_Images/contact.png" alt="error" style="width: 15px; border-radius: 20%;">
+                    <b>Contact Numbers</b><br>
+                    <b>Number #</b> 03254466097<br>
+                    <b>Number #</b> 03186186046
+                </p>
+             </div>
+            </div>
+            <div style="display: grid; gap: 20px; padding-bottom: 10px;">
+               <div style="text-align: center; background-color: aqua; width: 300px; padding: 5px; height:auto; border-radius: 10%">
+                <p>
+                <img src="../Web_Images/cap.png" alt="error" width=20% border-radius=20% height=auto><br>
+                </p>
+                <p style="text-align: center; padding-left: 10px;">
+                <b>Graduation </b>(continue)<br>
+                BS Computer Science<br>
+                <img src="../Web_Images/school.png" alt="error" style="width: 20px; height: auto">
+                <b>Abasyn University Islamabad </b><br>(Campus)
+                </p>
+                <p style="text-align: center; padding-left: 10px;">
+                <b>Intermediate</b>(2021)<br>(pre-Medical)<br>
+                <img src="../Web_Images/school.png" alt="error" style="width: 20px; height: auto">
+                <b>Rashid Minhas Higher Secondary<br> School Alipur</b>
+                </p>
+                <p style="text-align: center; padding-left: 10px;">
+                <b>Matriculation</b>(2019)<br>
+                <img src="../Web_Images/school.png" alt="error" style="width: 20px; height: auto">
+                <b>Rashid Minhas Higher Secondary<br>  School Alipur</b>
+                </p>
+             </div>
+            </div>
         </div>
     </body>
 </html>
