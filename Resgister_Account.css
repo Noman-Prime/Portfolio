@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif ;
+    background-image: url("Password_forget_bg%20(2).jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-height: 100vh;
+}
+.box {
+    font-size: 22px ;
+    align-self: center ;
+    text-align: left ;
+    display: flex ;
+    flex-direction: column ;
+    width: 30vw;
+    height: 100vh;
+}
+.A {
+    border: 2px solid;
+    border-radius: 8px;
+    height: 20px;
+}
