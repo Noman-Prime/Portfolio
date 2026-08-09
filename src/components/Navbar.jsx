@@ -78,7 +78,7 @@ const Navbar = () => {
                         </p>
 
                         <p className="truncate text-[11px] leading-4 text-slate-400 sm:text-xs">
-                            Full-Stack Developer
+                            Full Stack Developer
                         </p>
                     </div>
                 </a>

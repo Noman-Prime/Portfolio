@@ -41,7 +41,7 @@ const Hero = () => {
                         </a>
 
                         <a
-                            href="/Muhammad-Noman-Resume.pdf"
+                            href="/CV.pdf"
                             download
                             className="w-full rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 text-center text-sm font-semibold text-white transition hover:border-cyan-400/50 hover:bg-white/10 sm:w-auto sm:text-base"
                         >
